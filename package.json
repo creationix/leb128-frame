@@ -1,0 +1,25 @@
+{
+  "name": "leb128-frame",
+  "version": "0.0.0",
+  "description": "Protocol stream message framing/deframing using LEB128 encoded length headers",
+  "main": "leb128.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creationix/leb128-frame.git"
+  },
+  "keywords": [
+    "min-stream",
+    "frame",
+    "deframe",
+    "LEB128"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "bops": "0.0.5"
+  }
+}
